@@ -29,10 +29,7 @@ const Navbar: React.FC = () => {
           <a href="#" className="hover:text-orange-400 transition">Contact Us</a>
         </nav>
 
-        {/* Search Icon */}
-        <div className="text-2xl cursor-pointer hover:text-orange-400 transition">
-          🔍
-        </div>
+        
       </header>
 
       {/* Secondary Category Navigation (appears below the main navbar) */}

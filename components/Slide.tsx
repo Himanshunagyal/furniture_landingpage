@@ -141,7 +141,14 @@ const rooms = [
     name: 'Kitchen',
     imageUrl: 'https://media.architecturaldigest.com/photos/67bcc8747dfc89b75d51a6ab/16:9/w_2048,h_1152,c_limit/Kishani%20Perera_Point%20Dume%20Project_Photographer%20Anthony%20Barcelo.jpg',
   },
-  ,
+  {
+    name: 'Bedroom',
+    imageUrl: 'https://images.pexels.com/photos/20451400/pexels-photo-20451400.jpeg?cs=srgb&dl=pexels-ansar-muhammad-380085065-20451400.jpg&fm=jpg',
+  },
+  {
+    name: 'Kitchen',
+    imageUrl: 'https://media.architecturaldigest.com/photos/67bcc8747dfc89b75d51a6ab/16:9/w_2048,h_1152,c_limit/Kishani%20Perera_Point%20Dume%20Project_Photographer%20Anthony%20Barcelo.jpg',
+  }
 ];
 
 const RoomSlider: React.FC = () => {
@@ -150,7 +157,7 @@ const RoomSlider: React.FC = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % rooms.length);
-    }, 4000);
+    }, 3000);
     return () => clearInterval(interval);
   }, []);
 
