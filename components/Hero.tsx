@@ -71,11 +71,11 @@ const Hero: React.FC = () => {
               key={currentSlide}
               className="animate-fadeIn"
             >
-              <p className="text-amber-400 text-sm md:text-base font-light tracking-[0.3em] uppercase mb-4">
+              <p className="text-amber-400 text-bold text-sm md:text-base font-light tracking-[0.3em] uppercase mb-4">
                 {slides[currentSlide].subtitle}
               </p>
               
-              <h1 className="text-5xl md:text-7xl lg:text-8xl font-light text-white mb-6 leading-tight">
+              <h1 className="text-5xl text-bold md:text-7xl lg:text-8xl font-light text-white mb-6 leading-tight">
                 {slides[currentSlide].title}
               </h1>
               
